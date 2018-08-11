@@ -1,0 +1,27 @@
+#main{
+    height: 798px;
+}
+#title {
+    float:left;
+    width: 25%;
+    margin-right: 15px;
+    background-color: #65a5fa;
+}
+#title h1 {
+    text-align: center;
+    color:white;
+    height: 100%;
+    overflow: auto;
+}
+#content {
+    float:left;
+    margin-left: 20px;
+}
+#content div p {
+    float: left;
+    margin-right: 40px;
+    margin-top:0;
+ }
+ #content div + h2 {
+    clear: both;
+}
