@@ -1,0 +1,155 @@
+.header {
+    width: 100%;
+    background-color: #333333;
+    height: 70px;
+}
+.header .logo {
+    width:960px;
+    margin:0 auto;
+    height:70px;
+}
+.header .logo h2,.header .logo a {
+    color:white;
+}
+h2 {
+    float: left;
+}
+.logo ul {
+    float: right;
+    list-style-type: none;  
+}
+.logo ul li {
+    display: inline;
+    margin-right:20px; 
+}
+.banner {
+    width: 100%;
+    height:200px;
+    background-color: #66BB33;
+    margin:0 auto;
+}
+.banner ul{
+    list-style-type: none;
+    float:right;
+    margin-right:120px;
+    margin-top:150px;
+}
+.banner ul li{
+    display: inline;
+    margin-right:5px;
+    
+}
+.banner ul li a{
+    height:15px;
+    background-color:white;
+    opacity: 0.5;
+    border: 0.5px solid black;
+    width: 15px;
+    color:black;
+    padding:5px;
+    text-decoration-line: none; 
+    font-size:15px;
+}
+.banner ul li a:link,.banner ul li a:visited{
+    height:15px;
+    background-color:white;
+    opacity: 0.5;
+    border: 0.5px solid black;
+    width: 15px;
+    color:black;
+    padding:5px;
+    text-decoration-line: none; 
+    font-size:15px;
+}
+.banner ul li a:hover,.banner ul li a:active {
+    height:20px;
+    background-color: white;
+    opacity: 1;
+    border: 0.5px solid black;
+    width: 15px;
+    color:black;
+    padding:5px;
+    text-decoration-line:none;
+    font-size:15px;
+    padding-top:10px;
+}
+.nav_bar{
+    width: 100%;
+    margin:0 auto;
+    border-bottom:0.5px solid gray;
+    height:30px;
+}
+.nav_bar .nav{
+    width: 960px;
+    margin:0 auto;
+    height: 20px;
+    margin-top:10px;
+    padding: 0px;
+}
+.nav_bar .nav a{
+    border:0.5px solid gray;
+    border-bottom-color:#eeeeee;
+    border-radius: 5px 5px 0 0;
+    text-decoration-line: none;
+    font-size: 10px;
+    padding:10px;
+    margin-right:0;
+    margin-top:15px;
+
+}
+.nav_bar .nav a:link{
+    background-color: #eeeeee;
+}
+.nav_bar .nav a:visited{
+    background-color:#eeeeee;
+}
+.nav_bar .nav a:hover,.nav_bar .nav a:active{
+    background-color: #fff;
+    color:black;
+}
+.main{
+    width: 960px;
+    margin: 0 auto;
+}
+.main p{
+    text-align: center;
+    margin-top:90px;
+    margin-bottom: 90px;
+}
+.main .first,.main .second,.main .third{
+    display: flex;
+}
+.main .first div,.main .second div,.main .third div{
+    border:0.5px solid gray;
+}
+.main .first div,.main .third div{
+    width: 320px;
+    margin:10px;
+    height:200px;
+}
+.main .first .one ,.main .third .eight{
+    margin-left: 0px;
+}
+.main .first .three,.main .third .ten{
+    margin-right:0px;
+}
+.main .second div {
+    width:240px;
+    margin: 10px;
+    height: 200px;
+}
+.main .second .four {
+    margin-left: 0px;
+}
+.main .second .seven {
+    margin-right:0px;
+}
+.bottom{
+    width: 100%;
+    background-color:#666666;
+    height: 150px;
+    padding-top: 15px;
+}
+.bottom p{
+    text-align: center;
+}
